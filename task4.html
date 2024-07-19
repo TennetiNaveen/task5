@@ -1,0 +1,203 @@
+        <center style="color: red; ">Here is the task-1</center><hr>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weekly Schedule</title>
+	<style>
+		table {
+			border-collapse: collapse;
+		}
+		th, td {
+			border: 1px solid #ddd;
+			padding: 10px;
+			text-align: center;
+		}
+		th {
+			background-color: #f0f0f0;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th>Day</th>
+				<th>9:00 AM</th>
+				<th>10:00 AM</th>
+				<th>11:00 AM</th>
+				<th>12:00 PM</th>
+				<th>1:00 PM</th>
+				<th>2:00 PM</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Monday</td>
+				<td rowspan="2">Math Class</td>
+				<td></td>
+				<td></td>
+				<td>Lunch Break</td>
+				<td>English Class</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>Science Lab</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Tuesday</td>
+				<td>History Class</td>
+				<td rowspan="3">Project Meeting</td>
+				<td></td>
+				<td>Lunch Break</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>Computer Science Class</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>Free Time</td>
+			</tr>
+			<tr>
+				<td>Wednesday</td>
+				<td>French Class</td>
+				<td></td>
+				<td></td>
+				<td>Lunch Break</td>
+				<td>Art Class</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Thursday</td>
+				<td rowspan="2">Physics Class</td>
+				<td></td>
+				<td></td>
+				<td>Lunch Break</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>Chemistry Lab</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Friday</td>
+				<td>English Class</td>
+				<td></td>
+				<td></td>
+				<td>Lunch Break</td>
+				<td>Math Class</td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html><br><br><br><hr>
+
+
+        <center style="color: red; ">Here is the task-2</center><hr>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Registration Form</title>
+	<style>
+		/* Add some basic styling to make the form look decent */
+		form {
+			width: 50%;
+			margin: 40px auto;
+			padding: 20px;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		
+		input[type="text"], input[type="email"], input[type="password"] {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid #ccc;
+		}
+		
+		select {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid #ccc;
+		}
+		
+		input[type="radio"] {
+			margin-right: 10px;
+		}
+		
+		button[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		button[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+		
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+		
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+		
+		<label for="language">Favorite Programming Language:</label>
+		<select id="language" name="language" required>
+			<option value="">Select a language</option>
+			<option value="javascript">JavaScript</option>
+			<option value="python">Python</option>
+			<option value="java">Java</option>
+			<option value="c++">C++</option>
+			<option value="ruby">Ruby</option>
+		</select>
+		
+		<label>Gender:</label>
+		<input type="radio" id="male" name="gender" value="male">
+		<label for="male">Male</label>
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="female">Female</label>
+		<input type="radio" id="other" name="gender" value="other">
+		<label for="other">Other</label>
+		
+		<button type="submit">Register</button>
+	</form>
+</body>
+</html>
